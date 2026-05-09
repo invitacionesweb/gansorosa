@@ -19,7 +19,7 @@ const CONFIG = {
 
   // --- FORMULARIO ---
   textoForm: "Tu presencia es lo más importante",
-  textoFormSub: "NO OLVIDES CONFIRMAR ASITENCIA CON MIS PAPIS ANTES DEL 07 DE JULIO.",
+  textoFormSub: "No olvides confirmar asistencia con mis papis antes del 07 de Julio.",
   maxInvitados: 5,
   scriptFormUrl: "https://wa.link/yakt18",
 

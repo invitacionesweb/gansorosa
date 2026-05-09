@@ -263,7 +263,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 
 .forms p {
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     padding: 10px 0 ;
     margin: 0;
     font-family:var(--font-terciaria);
