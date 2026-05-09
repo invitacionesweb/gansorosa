@@ -56,8 +56,15 @@
             <div>
                 <p data-aos="fade-up" id="texto-ubicacion"></p>
                 <div class="botones">
+                    <a data-aos="fade-up" class="boton" target="_blank"  href="https://www.google.com/maps/dir//Parroquia+San+Gabriel+Arc%C3%A1ngel,+Pl.+Almte+Brown+145,+B1846+Adrogu%C3%A9,+Provincia+de+Buenos+Aires/@-34.7981282,-58.3835095,17z/data=!4m17!1m7!3m6!1s0x95bcd347e6ea7a2f:0x6c82f3ad050f39b4!2sParroquia+San+Gabriel+Arc%C3%A1ngel!8m2!3d-34.7981282!4d-58.3835095!16s%2Fg%2F1tdfjwp7!4m8!1m0!1m5!1m1!1s0x95bcd347e6ea7a2f:0x6c82f3ad050f39b4!2m2!1d-58.3836316!2d-34.7981181!3e0!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+                </div>
+            </div>
+        </div>
+         <div class="datos">
+            <div>
+                <p data-aos="fade-up" id="texto-ubicacion2"></p>
+                <div class="botones">
                     <a data-aos="fade-up" class="boton" target="_blank"  href="https://www.google.com/maps/dir//La+Carmela,+S+J+Bynnon+2615,+Jos++M+rmol,+Buenos+Aires,+Jorge+Santiago+Bynnon+2615,+Jos%C3%A9+Marmol,+Provincia+de+Buenos+Aires/@-34.7890687,-58.373926,17z/data=!4m17!1m7!3m6!1s0x95bcd3335dbb9655:0x5df722b3f2f483c2!2sLa+Carmela!8m2!3d-34.7890687!4d-58.373926!16s%2Fg%2F1q62k4h8g!4m8!1m0!1m5!1m1!1s0x95bcd3335dbb9655:0x5df722b3f2f483c2!2m2!1d-58.3739261!2d-34.7890685!3e0!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
-                    <a data-aos="fade-up" class="boton" target="_blank"  href="https://calendar.app.google/fSbvCLJugN3k9zHo6">AGENDAR</a>
                 </div>
             </div>
         </div>
@@ -81,6 +88,8 @@
 
       
     <a data-aos="fade-up" class="boton" id="btn-confirmar" href="#" target="_blank">CONFIRMAR ASISTENCIA</a>
+    <a data-aos="fade-up" class="boton" target="_blank"  href="https://calendar.app.google/fSbvCLJugN3k9zHo6">AGENDAR</a>
+
         </form>
     </div>
 
@@ -134,6 +143,7 @@
 
             // Textos
             document.getElementById("texto-ubicacion").textContent = CONFIG.textoUbicacion;
+            document.getElementById("texto-ubicacion2").textContent = CONFIG.textoUbicacion2;
             document.getElementById("form-title").textContent = CONFIG.textoForm;
             document.getElementById("form-sub").innerHTML = CONFIG.textoFormSub;
             document.getElementById("nombre-end").textContent = CONFIG.nombreFestejado;
