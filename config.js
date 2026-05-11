@@ -23,7 +23,7 @@ const CONFIG = {
   textoForm: "Tu presencia es lo más importante",
   textoFormSub: "No olvides confirmar asistencia con mis papis antes del 07 de Julio.",
   maxInvitados: 5,
-  scriptFormUrl: "https://wa.link/yakt18",
+  scriptFormUrl: "https://wa.link/d4g0c7",
 
   // --- AUDIO ---
   archivoAudio: "./ABCD.mp3",
@@ -38,6 +38,5 @@ const CONFIG = {
 
   // --- TÍTULO DE LA PESTAÑA ---
   tituloTab: "Julia",
-  whatsappNumero: "1140930654",  // sin + ni espacios
-whatsappMensaje: "🪿🎀 ¡Hola! Gracias por la invitación, ahí estaré/mos 🪿🎀",
+  
 };
